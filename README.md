@@ -17,7 +17,7 @@ A small daemon written in C for Arch Linux, with no extra dependencies.
 
 ## What does it do?
 
-The Logitech MX Master 3 has a scroll wheel that can switch between two modes: *ratchet* (clicky, with tactile steps) and *free-spin* (spinning freely). On Windows and macOS, Logitech Options+ can set ratchet mode permanently. On Linux, that option is missing. Existing programs such as [Solaar](https://github.com/pwr-Solaar/Solaar) and [OpenLogi](https://github.com/AprilNEA/OpenLogi) can do it, but they also change other settings. OpenLogi is what gave me the idea for this project.
+The Logitech MX Master 3 has a scroll wheel that can switch between two modes: *ratchet* (clicky, with tactile steps) and *free-spin* (spinning freely). On Windows and macOS, Logitech Options+ can set ratchet mode permanently. On Linux, Logitech Options doesn't exist. Existing programs such as [Solaar](https://github.com/pwr-Solaar/Solaar) and [OpenLogi](https://github.com/AprilNEA/OpenLogi) can do it, but they also change other settings. OpenLogi is what gave me the idea for this project.
 
 `mx-ratchetd` does exactly **one** thing: it puts the wheel into ratchet mode for as long as the mouse is paired and connected over Bluetooth. All other mouse settings are left untouched.
 
