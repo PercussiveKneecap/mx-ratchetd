@@ -26,7 +26,7 @@ The Logitech MX Master 3 has a scroll wheel that can switch between two modes: *
 ## Tested on
 
 - Logitech MX Master 3 and MX Master 3S, both over Bluetooth.
-- CachyOS on a Dell Precision 7530 laptop, and EndeavourOS on a self-built all-AMD desktop. Both are Arch-based, and it kept working after a reboot.
+- CachyOS on a Dell Precision 7530 and Lenovo ThinkPad T15g Gen 1 laptop, and EndeavourOS on a self-built all-AMD desktop. All are Arch-based, and it kept working after a reboot.
 
 The Logitech Unifying receiver and the Logi Bolt receiver that come with these mice have not been tested, and are not supported.
 
