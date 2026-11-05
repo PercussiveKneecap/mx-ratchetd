@@ -1,11 +1,11 @@
 # mx-ratchetd
 
-**Permanent ratchet mode for the Logitech MX Master 3 on Arch Linux.**
+**Permanent ratchet mode for the Logitech MX Master 3 on Arch-based Linux distributions.**
 
 A small daemon written in C for Arch Linux, with no extra dependencies.
 
 > [!WARNING]
-> **Disclaimer: this project was built by AI.**
+> **Disclaimer: this project was completely built by AI.**
 > All code and documentation in this repository were written by Claude Sonnet 5.5 (Anthropic), because I do not have the skills to build this myself. I have tested the result on my own devices (see [Tested on](#tested-on)).
 >
 > If you do not want AI-generated code ("AI slop"), do not download this.
@@ -30,13 +30,13 @@ The Logitech MX Master 3 has a scroll wheel that can switch between two modes: *
 
 The Logitech Unifying receiver and the Logi Bolt receiver that come with these mice have not been tested, and are not supported.
 
-This has only been made for and tested on Arch Linux and Arch-based distributions. Other distributions have not been tested.
+This has only been made for and tested on Arch-based distributions. Other distributions have not been tested.
 
 ## Installation
 
 ### Requirements
 
-- Arch Linux (or an Arch-based distribution) with systemd and BlueZ (`bluetooth.service`)
+- An Arch-based distribution with systemd and BlueZ (`bluetooth.service`)
 - `gcc` to build it
 - the mouse must already be paired over Bluetooth
 
